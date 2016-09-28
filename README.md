@@ -16,7 +16,7 @@ The control buttons are found in the main container (nVoid_AE_kf_importer) under
 The 4 parameters are 'COMP Name', 'File Name' and 'Frame Length', and 'Create'. 'COMP Name is what your new Animation COMP will be named. 'File Name' is the file that contains the text-form After Effects keyframe information. 'Frame Length is the length of the animation that will created. 'Create' creates and initializes the new Animation COMP.
 
 ##Example
-###After Effects :
+*###After Effects :
 
 - Click and drag to select all the keyframes that are located on one layer. (If you try to select keyframes in more than one layer you will get the message 'After Effects must have keyframes selected from one layer in order to export them as text' once you try to paste them.) Keyframes will become blue when they have been successfully selected
 
@@ -26,7 +26,7 @@ The 4 parameters are 'COMP Name', 'File Name' and 'Frame Length', and 'Create'. 
 
 - Save the text file.
 
-###TouchDesigner :
+*###TouchDesigner :
 
 - 
 
