@@ -28,7 +28,13 @@ The 4 parameters are 'COMP Name', 'File Name' and 'Frame Length', and 'Create'. 
 
 ####*TouchDesigner :*
 
-- 
+- In the 'COMP Name' text box, enter the name you would like the new Animation COMP to be called
+
+- In the 'File Name' text box, enter the full path the the text file that contains your keyframe data.
+
+- In the 'Frame Length' integer slider, select the frame length of your animation.
+
+- Hit the 'Create' pulse button, and your new Animation COMP should appear next to your 'nVoid_AE_kf_importer' COMP.
 
 
 ##Troubleshooting:
