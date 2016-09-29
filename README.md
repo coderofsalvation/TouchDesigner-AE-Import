@@ -7,13 +7,9 @@ This tool requires 'Custom Parameters' functionality within TouchDesigner (Build
 ##Installation
 1. Add the ```nVoid_AE_keyframe_importer.tox``` component into your project.
 
-##Notes about After Effects
-Copying Keyframes :
-Keyframes can only be converted to text from one layer at a time.
-
 ##Usage
 The control buttons are found in the main container (nVoid_AE_kf_importer) under the 'Settings' heading.
-The 4 parameters are 'COMP Name', 'File Name' and 'Frame Length', and 'Create'. 'COMP Name is what your new Animation COMP will be named. 'File Name' is the file that contains the text-form After Effects keyframe information. 'Frame Length is the length of the animation that will created. 'Create' creates and initializes the new Animation COMP.
+The 4 parameters are 'COMP Name', 'File Name' and 'Frame Length', and 'Create'. 'COMP Name' is what your new Animation COMP will be named. 'File Name' is the file that contains the text-form After Effects keyframe information. 'Frame Length is the length of the animation that will created. 'Create' creates and initializes the new Animation COMP.
 
 ##Example
 ####*After Effects :*
@@ -36,6 +32,9 @@ The 4 parameters are 'COMP Name', 'File Name' and 'Frame Length', and 'Create'. 
 
 - Hit the 'Create' pulse button, and your new Animation COMP should appear next to your 'nVoid_AE_kf_importer' COMP.
 
+##Notes about After Effects
+Copying Keyframes :
+Keyframes can only be converted to text from one layer at a time. Do not copy and paste multiple layers of keyframe data into a single text file, that is currently not supported.
 
 ##Troubleshooting:
 If you find an issue, submit a pull request or post an issue on this repo. 
