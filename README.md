@@ -34,6 +34,9 @@ The control buttons are found as custom parameters on the component ```nVoid_AE_
 ### Copying Keyframes :
 Keyframes can only be converted to text from one layer at a time. Do not copy and paste multiple layers of keyframe data into a single text file, that is currently not supported.
 
+### Curves
+Interpolation methods and curves (i.e. linear, gaussian, ease-in ease-out) aren't available data points when exporting After Effects layer keyframe data into a text file, so you will need to adjust the interpolation methods between keyframes manually in the Animation COMP editor after you import the keyframe values. 
+
 ## Troubleshooting:
 If you find an issue, submit a pull request or post an issue on this repo. 
 
