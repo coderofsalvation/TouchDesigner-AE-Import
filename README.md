@@ -8,7 +8,7 @@ This tool requires 'Custom Parameters' functionality within TouchDesigner (Build
 Add the ```nVoid_AE_keyframe_importer.tox``` component into your project.
 
 ## Usage
-The control buttons are found as custom parameters on the component ```nVoid_AE_kf_importer.tox``` under the ```Settings``` parameter page. The 4 parameters are ```COMP Name```, ```File Name``` and ```Frame Length```, and ```Create```. ```COMP Name``` is what your new Animation COMP will be named. ```File Name``` is the file that contains the text-form After Effects keyframe information. ```Default Curve Function``` allows you to choose the default easing function for keyframes that aren't specified. ```Frame Length``` is the length of the animation that will created. ```Create``` creates and initializes the new Animation COMP.
+The control buttons are found as custom parameters on the component ```nVoid_AE_kf_importer.tox``` under the ```Settings``` parameter page. The 4 parameters are ```COMP Name```, ```File Name``` and ```Frame Length```, and ```Create```. ```COMP Name``` is what your new Animation COMP will be named. ```File Name``` is the file that contains the text-form After Effects keyframe information. ```Default Curve Function``` allows you to choose the default easing function for keyframes that don't have one specified. ```Frame Length``` is the length of the animation that will created. ```Create``` creates and initializes the new Animation COMP.
 
 ## Example Usage
 
