@@ -39,7 +39,7 @@ Keyframes can only be converted to text from one layer at a time. Do not copy an
 This video explains ```control layers``` in more depth :
 (https://youtu.be/YQdlWD-b6Cg)
 
-### Curves
+### Curves :
 Interpolation methods and curves (i.e. linear, gaussian, ease-in ease-out) aren't available data points when exporting After Effects layer keyframe data into a text file, so you will need to adjust the interpolation methods between keyframes manually in the Animation COMP editor after you import the keyframe values. 
 
 ## Troubleshooting:
