@@ -34,7 +34,7 @@ The control buttons are found as custom parameters on the component ```nVoid_AE_
 ### Copying Keyframes :
 Keyframes can only be converted to text from one layer at a time. Do not copy and paste multiple layers of keyframe data into a single text file, that is currently not supported.
 
-*Tip : *
+*Tip :*
 
 To keep all keyframes on a single layer, you can use ```control layers``` with ```expression controls```, which are referenced by the other layers in the project. (Thanks to Hal Lovemelt for providing the AE demo that is included in the package)
 
