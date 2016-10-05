@@ -34,7 +34,7 @@ The control buttons are found as custom parameters on the component ```nVoid_AE_
 ### Copying Keyframes :
 Keyframes can only be converted to text from one layer at a time. Do not copy and paste multiple layers of keyframe data into a single text file, that is currently not supported.
 
-*Tip :* To keep all keyframes on a single layer, you can use ```control layers``` with ```expression controls```, which are referenced by the other layers in the project. (Thanks to Hal Lovemelt for providing the AE demo that is included in the package)
+*Tip :* To keep all keyframes on a single layer, you can use ```control layers``` with ```expression controls```, which are referenced by the other layers in the project. We have included an example after effects file that illustrates this.
 
 This video explains ```control layers``` in more depth :
 (https://youtu.be/YQdlWD-b6Cg)
@@ -42,8 +42,11 @@ This video explains ```control layers``` in more depth :
 ### Curves :
 Interpolation methods and curves (i.e. linear, gaussian, ease-in ease-out) aren't available data points when exporting After Effects layer keyframe data into a text file, so you will need to adjust the interpolation methods between keyframes manually in the Animation COMP editor after you import the keyframe values. 
 
-## Troubleshooting:
+## Troubleshooting :
 If you find an issue, submit a pull request or post an issue on this repo. 
+
+## Acknowledgements :
+Hal Lovemelt - After Effects Template file
 
 ## Attribution
 If you use this in one of your projects, feel free to give us (nVoid) a shoutout or just let us know what you're up to! 
