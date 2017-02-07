@@ -1,8 +1,7 @@
 {
-  "name": "ae-import",
   "version": "1.0.1",
   "tags":"import ae foo",
   "dependencies": {
-    "playlist-creator": "1.0.1"
+    "TouchDesigner-Playlist-Creator": "1.0.2"
   }
 }
